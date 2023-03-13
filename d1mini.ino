@@ -1,13 +1,13 @@
 /*
-請上傳此程式碼至esp8266
+請上傳此程式碼至D1 mini
 */
 
 #include<SoftwareSerial.h>
 #include<ESP8266WiFi.h>
 SoftwareSerial d1mini(D2,D3);
 
-const char* ssid     = "fan";
-const char* password = "3psdvkj28bdb";
+const char* ssid     = "YOUR_WIFI_SSID";
+const char* password = "YOUR_WIFI_PASSWORD";
 
 WiFiServer server(80);
 String header;
